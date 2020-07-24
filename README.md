@@ -3,6 +3,7 @@ Groupe: safaeAsmae
 Master iddlo en temps aménagé
 
 Lien de la vidéo de présentation : 
+
 https://drive.google.com/file/d/1G1S5DqFiKuw11rXCLvDcQ5ULNfZ2_Zn6/view?usp=sharing
 
 Mini projet:
