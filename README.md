@@ -1,13 +1,26 @@
+Groupe: safaeAsmae
+Master iddlo en temps aménagé
+
+Lien de la vidéo de présentation : https://drive.google.com/file/d/1G1S5DqFiKuw11rXCLvDcQ5ULNfZ2_Zn6/view?usp=sharing
+
+Mini projet:
+
 # L’apport du NLP dans le traitement des données du transcriptome pour la lutte contre le cancer du sein 
 
 L'objectif de notre mini projet est de mettre en place un classifieur de résumés médicaux basé sur le NLP
 
+Exigences : Nécessite la version 3.6 ou supérieure de python pour exécuter le script ou se connecter directement sur le lien colab
 
-La base de données sur laquelle nous avons travaillé est composé deux parties :
-class.txt :« https://raw.githubusercontent.com/safaeArabat/ML/master/dataSet/class.txt » qui présente la situation du patient par chaque expression génétique. 
-expression_gene  :qui contient ..
-Remarque : vu que la taille des données et très volumineuse nous n’avons pas pu mettre les 2 fichiers sur le github du coup le fichier class.txt se trouve sur le dossier dataset et le fichier expression_gene est sur le lien :
-Ces deux fichiers ont été produit via a pré-traitement fait sur le fichier traitementData.ipynb
-Le traitement des données s’est fait sur le fichier breastCancer.ipynb
-Et finalement vous allez trouvez une vidéo qui résume notre travail.
-https://drive.google.com/file/d/1G1S5DqFiKuw11rXCLvDcQ5ULNfZ2_Zn6/view?usp=sharing
+Les bibliothèques python utilisés :
+GEOparse => pour accéder à la base de données omnibus sur l'expression génétique.
+sklearn.metrics => pour l'importation de metrics et elle est utilisée pour les mesures de performances(matrice de confusion).
+sklearn. model_selection => pour la sélection du modèle du classififieur.
+keras.models => Le modèle regroupe les couches en un objet avec des fonctions d'entraînement et d'inférence.
+keras.layers => c'est la classe dont toutes les couches héritent.
+seaborn => pour la visualisation des données et elle est basée sur matplotlib. 
+numpy => pour la manipulation des tableaux.
+
+Deux modèles de classification supervisé ont été adopté : SVM et ANN
+
+
+
